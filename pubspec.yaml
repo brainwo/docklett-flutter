@@ -1,0 +1,31 @@
+name: docklett
+description: A new Flutter project.
+
+publish_to: "none"
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+
+dependencies:
+  desktop_drop: ^0.4.4
+  flutter:
+    sdk: flutter
+  flutter_acrylic: ^1.0.0+2
+  flutter_svg: ^2.0.7
+  ini: ^2.1.0
+  native_context_menu: ^0.2.2+5
+  open_file:
+    path: ../open_file
+  theme_detector:
+    path: ../theme-detector
+  window_manager: ^0.3.6
+
+dev_dependencies:
+  extra_pedantic: ^4.0.0
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: false
